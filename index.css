@@ -6,6 +6,14 @@
     font-family: 'Roboto', sans-serif;
   }
   
+  label {
+    display: inline-block;
+    width: 90px;
+  }
+
+  button {
+    width: 90px;
+  }
   button, input[type="text"] {
     padding: 5px;
   }
@@ -14,6 +22,13 @@
     cursor: pointer;
   }
   
+  #js-hide-checked {
+    text-align: right;
+  }
+  .shopping-list-checkbox:hover {
+    cursor: pointer;
+  }
+
   .hidden {
     display: none;
   }
