@@ -1,7 +1,9 @@
 handleNewItemSubmit()
   when the add item button is click 
   or if return is entered
-    get the value in the input box, create a new shopping list item, add the item to STORE
+    get the value in the input box, create a new shopping list item
+    clear input box value
+    add the item to STORE
     render shopping list
 
 handleItemCheckClicked()
@@ -15,13 +17,3 @@ handleDeleteItemClicked()
   when delete is clicked
     remove item from STORE
     render shopping list
-
-
-  findStoreIndex(param) {
-    for (let i = 0; i < STORE.length; i++){
-      if (li data-item-id === STORE[i].id)
-        return i;
-    }
-  }
-
-  STORE.splice(findStoreIndex(param), 1);
